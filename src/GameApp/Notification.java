@@ -43,7 +43,7 @@ public class Notification{
                     e.printStackTrace();
                 }
             }
-            if (Level2.Level == 2) {
+          else  if (Level2.Level == 2) {
                 Level2.stage.close();
                 Dashboard db = new Dashboard();
                 try {
@@ -52,7 +52,7 @@ public class Notification{
                     e.printStackTrace();
                 }
             }
-            if (Level3.Level == 3) {
+          else  if (Level3.Level == 3) {
                 Level3.stage.close();
                 Dashboard db = new Dashboard();
                 try {
